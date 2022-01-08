@@ -1,5 +1,5 @@
 from flask import Flask
-from flask_restful import API, Api, Resource
+from flask_restful import Api, Resource
 import json
 
 settings = json.load(open("settings"))
