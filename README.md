@@ -1,7 +1,7 @@
 # Proiect PMP - Banda Led Adresabila controlata remote
 
 [Demo YouTube proiect](https://youtu.be/3Po3nyhH-xo)
-
+[Demo muzica techno](https://youtu.be/AhxSv9iKTik)
 ## Motivatie
 
 Sunt multe motive pentru care ai alege sa faci o banda adresabila pe muzica/sunet. Un motiv foarte bun este cand vine cineva pe la tine (de preferat nu de la ingineri)
