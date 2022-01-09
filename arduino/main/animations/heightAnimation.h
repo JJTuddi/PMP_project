@@ -30,7 +30,7 @@ int tryGetAPixel(int microphonePin) {
 }
 
 int makeHeightLonger(int height, int numberOfPixels) {
-      int result = 11 * height / 3;
+      int result = 7 * height / 3;
       if (result < numberOfPixels) {
             return result;
       }
@@ -47,7 +47,7 @@ void playPixelsHeight(Pixel pixels[], int numberOfPixels, int microphonePin, int
       //resetLeds(pixels, numberOfPixels);
       if (animate == 0) {
             int pixelSum = tryGetAPixel(microphonePin);
-            maxHeight = normalizeToNumberOfPins(pixelSum, numberOfPixels);
+            maxHeight = makeHeightLonger(normalizeToNumberOfPins(pixelSum, numberOfPixels), numberOfPixels);
             increment = 1;
             animate = 1;
             currentHeight = 0;
