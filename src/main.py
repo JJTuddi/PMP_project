@@ -16,7 +16,7 @@ b1Pin = LED(INTERRUPT_B1)
 b1Pin.off()
 bPinArray = [b0Pin, b1Pin]
 
-animationNumber = {"Mid": 1, "Horizontal": 0, "Front": 1}
+animationNumber = {"Mid": 1, "Horizontal": 0, "Front": 2}
 settings = json.load(open("settings"))
 
 def numberToPin(number, b):
